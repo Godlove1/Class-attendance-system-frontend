@@ -1,4 +1,4 @@
-
+//this is the index page which is the frontend . this is wgere the WYSIWYG is wriiten
 <!DOCTYPE html>
 <html>
 <head>
