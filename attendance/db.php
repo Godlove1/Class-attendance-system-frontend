@@ -1,3 +1,6 @@
+//this is thw=e connection tothe database system //
+//the database used is mysql with XAMMP locally
+
 <?php
 $con = mysqli_connect("localhost","root","","classattendance");
 // Check connection
