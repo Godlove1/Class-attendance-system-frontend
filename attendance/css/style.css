@@ -1,0 +1,95 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+fieldset{
+height: 100%;
+}
+.formcontainer{
+width: 100%;
+height: auto;
+display: grid;
+place-items: center;
+}
+legend{
+font-size: 2em;
+padding: 10px;
+margin-bottom: 20px;
+}
+.form{
+margin-top: 30%;
+width: 400px;
+height: 300px;
+}
+input{
+margin-top: 30px;
+border: 2px solid rgb(44, 111, 150) ;
+border-radius: 5px;
+padding: 5px;
+}
+
+label{
+font-size: 1.3em;
+margin: 10px;
+}
+.field{
+background: rgb(44, 111, 150);
+padding: 8px;
+color: aliceblue;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.btn{
+background: rgba(0, 128, 0, 0.774);
+border: none;
+color: aliceblue;
+cursor: pointer;
+transition: background .4s ease-in-out;
+font-size: 1em;
+width: 100px;
+height: 50px;
+margin-left: 70%;
+}
+.btn:hover{
+background: rgb(44, 111, 150);
+}
+
+.success{
+display: grid;
+place-items: center;
+width: 100%;
+height: auto;
+}
+.sucmsg{
+position: relative;
+width: 250px;
+height: 250px;
+margin-top: 40%;
+border: 2px solid;
+padding: 10px;
+background: rgb(44, 111, 150);
+box-shadow: 3px 3px 3px grey;
+color: aliceblue;
+border-radius: 15px;
+}
+.sucmsg p a{
+position: absolute;
+text-decoration: none;
+color: aliceblue;
+background:rgb(1, 22, 34) ;
+padding: 10px;
+margin-left: 64%;
+margin-top: 10%;
+transition: all .7s ease-in-out;
+}
+.sucmsg p a:hover{
+background:rgba(17, 201, 11, 0.795) ;
+border-radius: 15px;
+}
+.sucmsg h3{
+text-align: center;
+padding-top: 23%;
+}
